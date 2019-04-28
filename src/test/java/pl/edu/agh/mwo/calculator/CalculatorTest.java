@@ -47,4 +47,9 @@ public class CalculatorTest
         int [] tablica = {2,4,6,8,5};
         assertEquals(5, testCalc.avg(tablica), 0.01);
     }
+
+    @Test
+    public void mainTest(){
+        testCalc.main(new String[]{"asd", "asdqwe"});
+    }
 }
